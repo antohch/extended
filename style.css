@@ -42,3 +42,12 @@ body{
 		.head-soc img{
 			margin-left:5px;
 		}
+	.menu{
+		clear:both; float:left; width:100%; font:bold, 12px "Droid Serif";
+	}
+		.menu ul{
+			list-style:none;
+		}
+		.menu ul li{
+			float:left;
+		}
