@@ -47,10 +47,35 @@ body{
 		border-left:1px solid #494d4e;
 		border-right:1px solid #494d4e;
 		border-radius:5px 5px 0 0;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#414547+0,35393b+100 */
+		background: rgb(65,69,71); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(65,69,71,1) 0%, rgba(53,57,59,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(65,69,71,1) 0%,rgba(53,57,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(65,69,71,1) 0%,rgba(53,57,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414547', endColorstr='#35393b',GradientType=0 ); /* IE6-9 */
 	}
 		.menu ul{
 			list-style:none;
 		}
 		.menu ul li{
-			float:left;
+			float:left; border-left:1px solid #434749; border-right:1px solid #323638; position:relative; top:-1px;
+		}
+		.menu ul li:first-child{
+			border-left:none;
+		}
+		.menu ul li:last-child{
+			border-right:none;
+		}
+		.menu ul li a{
+			color:#fff; padding:10px 17px; display:block; text-shadow:1px -1px 1px #000; border-bottom:4px solid #35393b; border-top:1px solid #474b4d;
+		}
+		.menu ul li a:hover{
+			border-bottom:4px solid #d7a229; text-decoration:none; border-top:1px solid #454a4c;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d4143+0,242627+100 */
+			background: rgb(61,65,67); /* Old browsers */
+			background: -moz-linear-gradient(top,  rgba(61,65,67,1) 0%, rgba(36,38,39,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  rgba(61,65,67,1) 0%,rgba(36,38,39,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  rgba(61,65,67,1) 0%,rgba(36,38,39,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d4143', endColorstr='#242627',GradientType=0 ); /* IE6-9 */
+
 		}
