@@ -100,7 +100,7 @@ body{
 			border-radius:10px; border-top:1px solid #e5e5e5;border-left:1px solid #e5e5e5;border-right:1px solid #e5e5e5;border-bottom:1px solid #a5a6a7;color:#959595; font:bold 12px "Droid Serif"; width:130px; padding:4px 10px; margin-right:10px; 
 		}
 	.under-slider{
-		background:#ffffff url(images/backgrount-line.png); padding:45px 30px; margin-bottom:40px;
+		background:#ffffff url(images/background-line.png); padding:45px 30px; margin-bottom:40px;
 	}
 	.under-slider h1{
 		font:normal 24px "Droid Serif";
@@ -109,7 +109,7 @@ body{
 		font-size:13px; font-family:pt_sans;
 	}
 	.content-main{
-		padding:0 30px 60px 30px; border-bottom:5px solid #d7a229; background:#fff url(images/backgrount-line.png) bottom repeat-x; font-family:pt_sans; font-size:13px;
+		padding:0 30px 60px 30px; border-bottom:5px solid #d7a229; background:#fff url(images/background-line.png) bottom repeat-x; font-family:pt_sans; font-size:13px;
 	}
 	.content-main:after{
 		content:"";
@@ -118,6 +118,9 @@ body{
 	}
 	.content-main p{
 		margin-bottom:20px;
+	}
+	.whatwedo{
+		margin-bottom:15px;
 	}
 	.whatwedo:after{
 		content:"";
@@ -131,8 +134,20 @@ body{
 		float:left; width:212px; margin-left:0px;
 	}
 	.whatwedo h1{
-		font:16px "Droid Serif"; margin-bottom:15px; background:url(images/backgrount-line.png) 0 6px repeat-x; 
+		font:16px "Droid Serif"; margin-bottom:15px; background:url(images/background-line.png) 0 6px repeat-x; 
 	}
 	.whatwedo h1 span{
 		background:#fff; padding-right:15px;
+	}
+	.center-n{
+		text-align:center; font:24px "Droid Serif"; background:url(images/background-line.png) center repeat-x; position:relative;
+	}
+	.hnl{
+		position:absolute; right:0; font-size:13px; font-family:pt_sans; color:#d7a229; top:6px; background:#fff; padding:0 0 0 15px;
+	}
+		.hnl a{
+			color:#d7a229;
+		}
+	.hnc{
+		background:#fff; padding:0 15px;
 	}
