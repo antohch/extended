@@ -140,7 +140,7 @@ body{
 		background:#fff; padding-right:15px;
 	}
 	.center-n{
-		text-align:center; font:24px "Droid Serif"; background:url(images/background-line.png) center repeat-x; position:relative;
+		text-align:center; font:24px "Droid Serif"; background:url(images/background-line.png) center repeat-x; position:relative; margin-bottom:45px;
 	}
 	.hnl{
 		position:absolute; right:0; font-size:13px; font-family:pt_sans; color:#d7a229; top:6px; background:#fff; padding:0 0 0 15px;
@@ -150,4 +150,18 @@ body{
 		}
 	.hnc{
 		background:#fff; padding:0 15px;
+	}
+	.our-works-main:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.our-works-main{
+		margin-bottom:45px;
+	}
+	.our-works{
+		float:left; margin-left:29px; background:url(images/background-line.png); padding:0 5px 5px 0; width:208px;
+	}
+	.our-works:first-child{
+		margin-left:0px;
 	}
