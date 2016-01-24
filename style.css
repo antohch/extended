@@ -194,3 +194,15 @@ body{
 .our-services{
 	width:49%; float:right;
 }
+.advance{
+	overflow:hidden;
+}
+	.why-us{
+		width:49%; float:left;
+	}
+	.our-services{
+		width:49%; float:right;
+	}
+.img-righter{
+	float:right; margin:0 0 15px 15px;
+}
