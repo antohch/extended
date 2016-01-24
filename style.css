@@ -183,3 +183,14 @@ body{
 	a:hover.our-work-href .our-work-short {
 		display:block;
 	}
+.advance:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.why-us{
+	width:49%; float:left;
+}
+.our-services{
+	width:49%; float:right;
+}
