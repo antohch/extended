@@ -160,8 +160,26 @@ body{
 		margin-bottom:45px;
 	}
 	.our-works{
-		float:left; margin-left:29px; background:url(images/background-line.png); padding:0 5px 5px 0; width:208px;
+		float:left; margin-left:29px; background:url(images/background-line.png); padding:0 5px 5px 0; width:208px; position:relative;
 	}
 	.our-works:first-child{
 		margin-left:0px;
+	}
+	.our-work-short{
+		position:absolute; text-align:center; border:5px solid #afafaf; width:198px; height:198px; background:rgba(137, 137, 137, 0.2); display:none;
+	}
+	.our-work-short img{
+		margin:70px 0 15px 0;
+	}
+	.our-work-short h3{
+		font:12px "Droid Serif"; color:#252525; margin-bottom:5xp;
+	}
+	.our-work-short p{
+		font:10px "Droid Serif"; color:#555; margin-bottom:5xp;
+	}
+	a.our-work-href{
+		display:block;
+	}
+	a:hover.our-work-href .our-work-short {
+		display:block;
 	}
