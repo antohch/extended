@@ -206,6 +206,13 @@ body{
 .img-righter{
 	float:right; margin:0 0 15px 15px;
 }
+.img-lefter{
+	background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    padding: 10px 20px 10px 0;
+    position: relative;
+    z-index: 10;
+}
 .footer:after{
 	content:"";
 	display:block;
@@ -223,3 +230,44 @@ body{
 		.ftrmenu a{
 			color:#707070; margin:0 10px;
 		}
+/*		ABOUT		*/
+
+.page-title{
+	background:url(images/background-line.png); padding:25px 30px; overflow:hidden; margin-bottom:50px;
+}
+	.page-title h1{
+		float:left; font:normal 24px "Droid Serif";
+	}
+	.page-title-map{
+		float:right; font:italic 12px pt_sans; margin:7px 0 0 0; color:#363636;
+ 	}
+	.page-title-map a{
+		color:#363636;
+	}
+.our-team-main{
+	overflow:hidden; margin-bottom:25px;
+}
+	.our-team-main div{
+		width:273px; padding:0 10px; float:left; margin-left:30px;
+	}
+	.our-team-main div:first-child{
+		width:273px; padding:0 10px; float:left; margin-left:0px;
+	}
+	.our-team-main div h2{
+		font:normal 14px "Droid Serif"; overflow:hidden; line-height:2.3; margin-bottom:20px;
+	}
+		.our-team-main div h2 span{
+			font:italic 12px pt_sans; color:#898989;
+		}
+		.our-team-main div h2 img{
+			float:left; margin-right: 20px;
+		}
+.our-clients{
+	overflow:hidden;
+}
+	.our-clients a{
+		float:left; margin-left:15px;
+	}
+	.our-clients a:first-child{
+		float:left; margin-left:0px;
+	}
