@@ -271,3 +271,29 @@ body{
 	.our-clients a:first-child{
 		float:left; margin-left:0px;
 	}
+/* portfoli */
+.page-nav{
+	background:url(images/naklon-smal-bg.jpg) bottom repeat-x; margin: 0 30px 50px 30px;
+}
+.page-nav:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+	.page-nav ul{
+		background:url(images/naklon-smal-bg.jpg) top repeat-x; list-style:none; 
+	}
+	.page-nav ul:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+		.page-nav ul li{
+			float:left; font:15px 'pt_sans';
+		}
+			.page-nav ul li a{
+				display:block; padding:15px 20px; color:#333;
+			}
+				.page-nav ul li a:hover{
+					border-bottom:5px solid #d7a229; color:#d7a229; text-decoration:none; padding:15px 20px 10px 20px;
+				}
