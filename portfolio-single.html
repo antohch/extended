@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<!-- Demo CSS -->
+	<link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+
+	<!-- Modernizr -->
+  <script src="js/modernizr.js"></script>
+  
+  <link href="css/custom-theme/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+  
+  
+<title>Extendet</title>
+</head>
+
+<body>
+<div class="karkas">
+	<div class="header">
+		<a href="#"><img class="logo" src="images/logo.png" alt="" /></a>
+		<p class="head-contakt">
+		<img src="images/mail.png" alt="" /><a href="mailto:contact@monkeethemes.com">contact@monkeethemes.com</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/phone.png" alt="" />020 72046 404
+		</p>
+		<div class="head-soc">
+			<a href="#"><img src="images/facebook.png" alt="" /></a>
+			<a href="#"><img src="images/twitter.png" alt="" /></a>
+			<a href="#"><img src="images/soc1.png" alt="" /></a>
+			<a href="#"><img src="images/soc2.png" alt="" /></a>
+			<a href="#"><img src="images/youtube.png" alt="" /></a>
+			<a href="#"><img src="images/v.png" alt="" /></a>
+			<a href="#"><img src="images/rss.png" alt="" /></a>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">The Team</a></li>
+				<li><a href="#">Testimonials</a></li>
+				<li><a href="#">Our Work</a></li>
+				<li><a href="#">Our Videos</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="search">
+				<form action="">
+					<input class="search-txt" type="text" name="search" value="Поиск" onfocus="if(this.value=='Поиск')this.value=''" onblur="if(this.value=='')this.value='Поиск'" />
+					<input type="image" src="images/search.png"/>
+				</form>
+			</div>
+		</div>
+	</div>
+    
+    <div class="page-title">
+    	<h1>Portfolio Single Title</h1>
+        <p class="page-title-map"><a href="#">Home</a>  /  <a href="#">Our Work</a> / Single Page</p>
+    </div>  
+	<div class="slider-portfolio">
+		<div class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="images/portfolio-single.jpg" />
+					<img src="images/portfolio-shadow.png" />
+				</li>
+				<li>
+
+					<img src="images/portfolio-single.jpg" />
+					<img src="images/portfolio-shadow.png" />
+				</li>
+				<li>
+					<img src="images/portfolio-single.jpg" />
+					<img src="images/portfolio-shadow.png" />
+				</li>
+				<li>
+					<img src="images/portfolio-single.jpg" />
+					<img src="images/portfolio-shadow.png" />
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div class="content-main">
+		
+	</div>
+<div class="footer">
+	<p class="copy">Copyright 2012. All Right Reserved MonkeeThemes.</p>
+	<p class="ftrmenu">
+	<a href="#">Home</a> |     
+	<a href="#">About</a> |     
+	<a href="#">Sitemap</a> |     
+	<a href="#">Contact</a>
+	</p> 
+</div>
+    
+</div>
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+	  $( "#accordion" ).accordion();
+	  $( "#tabs" ).tabs();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+
+  <!-- Syntax Highlighter -->
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushXml.js"></script>
+  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+  <script src="js/jquery-ui-1.9.2.custom.js"></script>
+</body>
+</html>
