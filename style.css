@@ -342,7 +342,7 @@ a:hover.read-more{
 }
 /* portfolio-single */
 .slider-portfolio{
-	background:url(images/background-line.png); padding:30px 30px 0 30px;
+	background:url(images/background-line.png); padding:30px 30px 0 30px; margin-bottom:50px;
 }
 .slider-portfolio:after{
 	content:"";
@@ -354,4 +354,24 @@ a:hover.read-more{
 }
 .slider-portfolio .flex-control-nav{
 	display:none;
+}
+.content-left{
+	width:710px; float:left;
+}
+.right-bar{
+	width:200px; float:right;
+}
+.projeact-descrip{
+	font:normal 16px "Droid Serif"; background:url(images/background-line.png) left 12px repeat-x; margin-bottom:20px;
+}
+.projeact-descrip img{
+	vertical-align:bottom; margin-right:15px;
+}
+.projeact-descrip span{
+	background:#fff; padding:0 20px;
+}
+.clr{
+	content:"";
+	display:block;
+	clear:both;
 }
