@@ -323,3 +323,20 @@ a.read-more{
 a:hover.read-more{
 	background:url(images/read-more.jpg) 0 -29px no-repeat; text-decoration:none; padding:5px 0 7px 0;
 }
+.pager{
+	list-style:none; float:right;
+}
+.pager:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.pager li{
+	float:left; font:bold 14px pt_sans;
+}
+.pager li a{
+	color:#363636; display:block; padding:5px 10px;
+}
+.pager li a.now{
+	color:#fff; background:#d7a229; margin:0 10px;
+}
